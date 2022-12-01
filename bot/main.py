@@ -1,7 +1,7 @@
 from aiogram import Dispatcher, Bot, executor, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
-import config
+from bot.misc import config
 from bot.handlers.main import register_all_handlers
 
 
